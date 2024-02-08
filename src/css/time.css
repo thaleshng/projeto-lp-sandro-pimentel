@@ -1,0 +1,37 @@
+.time {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.time .time-info {
+    width: 516px;
+}
+
+.time .time-info h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.time .time-info h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #53A670;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+
+.time .time-info .time-description {
+    display: flex;
+    flex-direction: column;
+    width: 471px;
+    gap: 18px;
+    margin-bottom: 63px;
+}
+
+.time .time-info .time-description p {
+    font-family: 'DM Sans', sans-serif;
+    color: #C3C3C3;
+}

@@ -1,0 +1,47 @@
+.results {
+    width: 663px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+
+.results::before {
+    content: "";
+    background: url("../assets/bg-img-elipse-effect2.png") center no-repeat;
+    background-size: cover;
+    width: 831px;
+    height: 831px;
+    position: absolute;
+    top: -400px;
+    right: -280px;
+}
+
+.results img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin-bottom: 43px;
+}
+
+.results h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.results span {
+    color: #53A670;
+}
+
+.results p {
+    font-family: 'DM Sans', sans-serif;
+    color: #C3C3C3;
+    text-align: center;
+}
+
+.results p span {
+    color: #53A670;
+}
