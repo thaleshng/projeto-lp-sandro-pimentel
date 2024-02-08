@@ -1,0 +1,60 @@
+.analytics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 88px;
+    padding: 10%;
+    height: 410px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.analytics::before {
+    content: "";
+    min-width: 405px;
+    min-height: 405px;
+    background: url("../assets/bg-img-elipse-effect.png") center;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.4;
+    background-color: rgba(83, 166, 1, 0.01);
+    box-shadow: 0 0 50px 80px rgba(83, 166, 112, 0.04);
+    top: 65px;
+}
+
+.analytics .analytics-image {
+    border: 2px solid #444;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.analytics .analytics-image img {
+    width: 100%;
+    position: relative;
+    left: -28px;
+    top: -28px;
+}
+
+.analytics .analytics-info {
+    max-width: 561px;
+}
+
+.analytics .analytics-info h2 {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.analytics .analytics-info h2 span {
+    color: #53A670;
+}
+
+.analytics .analytics-info p {
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #C3C3C3;
+
+}

@@ -1,0 +1,23 @@
+.dolar {
+    width: 1120px;
+    background: url("../assets/img-dolar.png") center no-repeat;
+    margin: 0 auto;
+}
+
+.dolar .dolar-info {
+    width: 471px;
+    padding: 53px 0 53px 78px;
+}
+
+.dolar .dolar-info p {
+    font-family: 'DM Sans', sans-serif;
+    color: #C3C3C3;
+}
+
+.dolar .dolar-info p:first-child {
+    margin-bottom: 16px;
+}
+
+.dolar .dolar-info p span {
+    color: #53A670;
+}

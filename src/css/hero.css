@@ -1,0 +1,69 @@
+.hero {
+    height: 100vh;
+    background: url("../assets/bg-image-hero.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 19px;
+    width: 515px;
+    height: 100%;
+}
+
+.hero .hero-content p:nth-child(1) {
+    font-size: 15px;
+    color: #5C7B67;
+}
+
+.hero .hero-content .hero-title {
+    font-size: 32px;
+    color: #FFF;
+}
+
+.hero .hero-content .hero-title span {
+    color: #53A670;
+    font-weight: 300;
+}
+
+.hero .hero-content p:nth-child(3) {
+    color: #C3C3C3;
+}
+
+.hero .hero-buttons {
+    margin-top: 10%;
+}
+
+.hero .hero-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero .hero-footer p {
+    font-size: 12px;
+    color: #7D7D7D;
+}
+
+.hero .hero-footer .company-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.hero .hero-footer .company-logo img {
+    position: relative;
+    top: -3px;
+}
+
+.hero .hero-footer .company-logo span {
+    color: #C3C3C3;
+    font-size: 17px;
+}
