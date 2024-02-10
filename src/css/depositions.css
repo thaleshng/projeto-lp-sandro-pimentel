@@ -1,0 +1,47 @@
+.depositions {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+
+.depositions h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.depositions .depositions-general {
+    display: flex;
+    gap: 75px;
+}
+
+.depositions .depositions-general .deposition {
+    position: relative;
+}
+
+.depositions .depositions-general a p {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    transform: translateY(50%);
+    opacity: 0;
+    font-weight: 700;
+    transition: 0.3s linear;
+}
+
+.depositions .depositions-general a:hover p {
+    opacity: 1;
+}
+
+.depositions .depositions-general a img {
+    transition: 0.3s linear;
+}
+
+.depositions .depositions-general a:hover img {
+    opacity: 0.2;
+}
+
