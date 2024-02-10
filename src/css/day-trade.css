@@ -1,0 +1,36 @@
+.day-trade {
+    background-color: #53A670;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 76px 0 90px 0;
+}
+
+.day-trade h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #1E1E1E;
+}
+
+.day-trade p {
+    width: 549px;
+    font-family: 'DM Sans', sans-serif;
+    color: #1E1E1E;
+}
+
+.day-trade img {
+    margin: 23px 0 81px 0;
+}
+
+.day-trade button a {
+    background: none;
+    transition: 0.3s ease-in-out;
+    color: #1E1E1E;
+}
+
+.day-trade button a:hover {
+    background-color: #1E1E1E;
+    color: #FFF;
+}
