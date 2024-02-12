@@ -8,7 +8,7 @@
 
 .mentor::before {
     content: "";
-    background: url("../assets/bg-img-elipse-effect2.png") center no-repeat;
+    background: url("../../assets/bg-img-elipse-effect2.png") center no-repeat;
     background-size: cover;
     position: absolute;
     width: 730px;

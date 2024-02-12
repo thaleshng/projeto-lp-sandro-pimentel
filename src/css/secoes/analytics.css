@@ -13,7 +13,7 @@
     content: "";
     min-width: 405px;
     min-height: 405px;
-    background: url("../assets/bg-img-elipse-effect.png") center;
+    background: url("../../assets/bg-img-elipse-effect.png") center;
     position: absolute;
     display: block;
     border-radius: 50%;

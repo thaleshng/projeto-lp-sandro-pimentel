@@ -1,6 +1,6 @@
 .hero {
-    height: 100vh;
-    background: url("../assets/bg-image-hero.png") center no-repeat;
+    height: 85vh;
+    background: url("../../assets/bg-image-hero.png") center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,7 @@
 .hero .hero-content .hero-title {
     font-size: 32px;
     color: #FFF;
+    font-weight: 400;
 }
 
 .hero .hero-content .hero-title span {

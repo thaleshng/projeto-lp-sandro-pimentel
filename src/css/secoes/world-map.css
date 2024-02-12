@@ -42,7 +42,7 @@
 }
 
 .world-map-image {
-    background: url("../assets/bg-mundi.png") center no-repeat;
+    background: url("../../assets/bg-mundi.png") center no-repeat;
     background-size: cover;
     opacity: 0.8;
     width: 750px;

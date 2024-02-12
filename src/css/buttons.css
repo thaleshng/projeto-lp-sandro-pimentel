@@ -9,10 +9,11 @@ button a {
     padding: 21px 38px;
     border-radius: 50px;
     overflow: hidden;
+    transition: 0.3s ease-in-out;
 }
 
 button a:hover {
-    background: linear-gradient(to right, #038C3E, #53A670);
+    background: #038C3E;
 }
 
 #join-now-btn {
